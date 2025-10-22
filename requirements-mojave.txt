@@ -1,0 +1,11 @@
+# YouTube Downloader - Mojave Compatible Requirements
+# For macOS 10.14 (Mojave) and 10.15 (Catalina) on Intel Macs
+# Requires Python 3.7-3.9
+
+# PyQt5 - GUI Framework
+# Version 5.12-5.15 is compatible with Mojave
+PyQt5>=5.12,<5.16
+
+# yt-dlp - YouTube Downloader
+# Latest version works with Python 3.7+
+yt-dlp>=2023.1.1

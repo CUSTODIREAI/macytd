@@ -4,12 +4,28 @@ YouTube ULTIMATE Downloader 2025 - macOS Installation
 
 SYSTEM REQUIREMENTS:
 - macOS 10.14 (Mojave) or later
-- Python 3.7 or later
+- Python 3.7 or later (Python 3.7-3.9 recommended for Mojave)
 - 100MB free disk space
+- Intel or Apple Silicon compatible
 
 ================================================================================
-QUICK START INSTALLATION
+INSTALLATION - CHOOSE YOUR macOS VERSION
 ================================================================================
+
+FOR MOJAVE (10.14) / CATALINA (10.15) - INTEL MACS:
+---------------------------------------------------
+Use the Mojave-specific installer:
+
+1. Open Terminal
+2. Navigate to this folder:
+   cd /path/to/downloaded/folder
+3. Run the Mojave installer:
+   bash install-mojave.sh
+
+The script will automatically detect your system and install compatible versions.
+
+FOR BIG SUR (11.0) AND LATER - APPLE SILICON & INTEL:
+------------------------------------------------------
 
 1. COPY FILES TO YOUR MAC
    - Drag "YouTube-Downloader.py" to your Desktop or Applications folder
