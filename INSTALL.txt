@@ -1,0 +1,104 @@
+================================================================================
+YouTube ULTIMATE Downloader 2025 - macOS Installation
+================================================================================
+
+SYSTEM REQUIREMENTS:
+- macOS 10.14 (Mojave) or later
+- Python 3.7 or later
+- 100MB free disk space
+
+================================================================================
+QUICK START INSTALLATION
+================================================================================
+
+1. COPY FILES TO YOUR MAC
+   - Drag "YouTube-Downloader.py" to your Desktop or Applications folder
+   - Drag "launch-youtube-downloader.sh" to the same location
+
+2. FIRST TIME LAUNCH
+   - Double-click "launch-youtube-downloader.sh"
+   - OR open Terminal and run:
+     bash launch-youtube-downloader.sh
+
+   The launcher will automatically:
+   - Check for Python 3
+   - Install required dependencies (PyQt5, yt-dlp)
+   - Launch the YouTube Downloader
+
+3. SUBSEQUENT LAUNCHES
+   - Just double-click "launch-youtube-downloader.sh"
+   - Or run: python3 YouTube-Downloader.py
+
+================================================================================
+MANUAL INSTALLATION (Advanced Users)
+================================================================================
+
+If you prefer to install dependencies manually:
+
+1. Open Terminal
+
+2. Install Python 3 (if not already installed):
+   brew install python3
+
+3. Install dependencies:
+   pip3 install PyQt5 yt-dlp
+
+4. Run the application:
+   python3 YouTube-Downloader.py
+
+================================================================================
+USING THE APPLICATION
+================================================================================
+
+1. Click "🔄 Check & Update yt-dlp" to ensure latest version
+2. Enter a YouTube URL (channel, playlist, or video)
+3. Select output directory (default: ~/Downloads/youtube)
+4. Choose quality (1080p recommended)
+5. Click "▶️ Start Download"
+
+Features:
+✅ Bypasses YouTube October 2025 restrictions
+✅ Auto-updates yt-dlp to latest version
+✅ Professional GUI interface
+✅ Real-time progress tracking
+✅ Download archive (skips duplicates)
+✅ Multiple quality options
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Issue: "Python 3 Required" alert
+Fix: Install Python 3:
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     brew install python3
+
+Issue: Dependencies won't install
+Fix: Try manual installation:
+     pip3 install --user PyQt5 yt-dlp
+
+Issue: "Permission denied"
+Fix: Make scripts executable:
+     chmod +x launch-youtube-downloader.sh
+     chmod +x YouTube-Downloader.py
+
+Issue: Downloads fail with 403 errors
+Fix: Click "Check & Update yt-dlp" in the app
+
+Issue: App won't launch
+Fix: Run from Terminal to see errors:
+     python3 YouTube-Downloader.py
+
+================================================================================
+COMPATIBILITY
+================================================================================
+
+Tested on:
+- macOS 14 Sonoma (Apple Silicon & Intel)
+- macOS 13 Ventura
+- macOS 12 Monterey
+- macOS 11 Big Sur
+- macOS 10.15 Catalina
+- macOS 10.14 Mojave
+
+================================================================================
