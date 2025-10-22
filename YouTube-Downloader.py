@@ -279,7 +279,7 @@ class YouTubeDownloaderGUI(QMainWindow):
         self.max_spin = QSpinBox()
         self.max_spin.setMinimum(0)
         self.max_spin.setMaximum(10000)
-        self.max_spin.setValue(500)
+        self.max_spin.setValue(0)  # Default: Unlimited
         self.max_spin.setSpecialValueText("Unlimited")
         max_layout.addWidget(self.max_spin)
         max_layout.addStretch()

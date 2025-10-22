@@ -91,7 +91,7 @@ python3 YouTube-Downloader.py
 - Quality: Best up to 1080p
 - Output: ~/Downloads/youtube
 - Archive: Enabled (skip duplicates)
-- Max Downloads: 500 (configurable)
+- Max Downloads: Unlimited (configurable 0-10,000)
 
 ## Building from Source
 
