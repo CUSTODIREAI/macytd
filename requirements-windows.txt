@@ -1,0 +1,12 @@
+# YouTube Batch Downloader - Windows Requirements
+# For Windows 10/11
+# Python 3.7 or later required
+
+# GUI Framework
+PyQt5>=5.12
+
+# YouTube Downloader
+yt-dlp>=2023.1.1
+
+# For building .exe (optional - only needed if building from source)
+# pyinstaller>=5.0
