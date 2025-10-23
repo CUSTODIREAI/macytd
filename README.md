@@ -2,6 +2,14 @@
 
 Professional YouTube downloader with October 2025 bypass fix built-in.
 
+## Two Applications Included
+
+### 1. YouTube Downloader (Single Downloads)
+Professional single-download interface with all the features below.
+
+### 2. The Batcher (Batch Downloads)
+Sequential batch downloader - add unlimited URL + output folder pairs for automated sequential processing.
+
 ## Features
 
 - Bypasses YouTube October 2025 403 restrictions
@@ -11,6 +19,8 @@ Professional YouTube downloader with October 2025 bypass fix built-in.
 - Download archive (skips duplicates)
 - Multiple quality options (up to 1080p)
 - Firefox cookie integration
+- **NEW**: Batch downloading with individual output folders
+- **NEW**: Save/load batch lists for repeated downloads
 
 ## System Requirements
 
@@ -73,12 +83,34 @@ python3 YouTube-Downloader.py
 
 ## Usage
 
-1. Launch the application
+### YouTube Downloader (Single Downloads)
+
+1. Launch: `python3 YouTube-Downloader.py` or `bash launch-youtube-downloader.sh`
 2. Click "🔄 Check & Update yt-dlp" to ensure latest version
 3. Enter a YouTube URL (channel, playlist, or video)
 4. Select output directory (default: ~/Downloads/youtube)
 5. Choose quality (1080p recommended)
 6. Click "▶️ Start Download"
+
+### The Batcher (Batch Downloads)
+
+1. Launch: `python3 YouTube-Batcher.py` or `bash launch-batcher.sh`
+2. Add items:
+   - Enter URL (channel, playlist, or video)
+   - Select output folder for that specific item
+   - Click "➕ Add to Batch"
+   - Repeat for as many items as you want
+3. Configure settings (quality, archive mode)
+4. Click "▶️ Start Batch" for sequential processing
+5. Optional: Save batch list for future use
+
+**Batch Features:**
+- Add unlimited URL + folder pairs
+- Sequential processing (one after another)
+- Individual output folders per item
+- Save/load batch lists (JSON format)
+- Progress tracking for entire batch
+- Pause/resume capability
 
 ## Technical Details
 
